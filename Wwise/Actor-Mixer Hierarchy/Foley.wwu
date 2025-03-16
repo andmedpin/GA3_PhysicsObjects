@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0D55ADA-3B51-479A-8534-052FCA9C5027}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Foley" ID="{C0D55ADA-3B51-479A-8534-052FCA9C5027}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<RandomSequenceContainer Name="fly_jump" ID="{1C76F1F8-EFE9-4168-9FD2-0C16AD4BCEAD}" ShortID="1007140855">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9043B2FC-66BA-43CB-83A5-C55A73795852}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="75"/>
+											<Property Name="Min" Type="Real64" Value="-75"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.075"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5DA4D13E-FD22-4A6C-A51A-4F6EC25B63CA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="fly_jump_gak" ID="{9C2A6516-E62F-4A1D-9855-790B64061691}" ShortID="552478184">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_jump_gak_01" ID="{35D58BC8-B0D3-442B-933A-07A6A2B1837B}" ShortID="44617619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_jump_gak_01" ID="{62042484-3EA4-4DDD-9488-2B8EEB1BA693}">
+											<Language>SFX</Language>
+											<AudioFile>fly_jump\fly_jump_gak\fly_jump_gak_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="70853248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_jump_gak_01" ID="{62042484-3EA4-4DDD-9488-2B8EEB1BA693}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_jump_gak_02" ID="{BEFF1B27-F7B3-476E-856C-91CC085C50DD}" ShortID="554948435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_jump_gak_02" ID="{1D6B48B2-0ADA-44DA-9864-A1ED6AC5F557}">
+											<Language>SFX</Language>
+											<AudioFile>fly_jump\fly_jump_gak\fly_jump_gak_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537554449"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_jump_gak_02" ID="{1D6B48B2-0ADA-44DA-9864-A1ED6AC5F557}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_jump_gak_03" ID="{0C547DF7-494C-4839-AFB7-BE463798AA97}" ShortID="1025343058">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_jump_gak_03" ID="{EBBA2C19-857B-47B9-8F0F-D54E4F945ABC}">
+											<Language>SFX</Language>
+											<AudioFile>fly_jump\fly_jump_gak\fly_jump_gak_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="930816969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_jump_gak_03" ID="{EBBA2C19-857B-47B9-8F0F-D54E4F945ABC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fly_jump_woosh" ID="{CA854261-1ACE-4178-972D-561307740E29}" ShortID="597933874">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_jump_woosh_01" ID="{03C40E23-662D-4F9C-A76D-1F779B0E6481}" ShortID="421208587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_jump_woosh_01" ID="{1B1B872E-6D00-47A0-88D4-17FE6206FAA8}">
+											<Language>SFX</Language>
+											<AudioFile>fly_jump\fly_jump_woosh\fly_jump_woosh_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="20591005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_jump_woosh_01" ID="{1B1B872E-6D00-47A0-88D4-17FE6206FAA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_jump_woosh_02" ID="{83774D65-7F17-4707-8D65-780ADEF6E1F1}" ShortID="509624574">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_jump_woosh_02" ID="{6173704B-E024-435E-9AB4-D02E423B0300}">
+											<Language>SFX</Language>
+											<AudioFile>fly_jump\fly_jump_woosh\fly_jump_woosh_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="264553083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_jump_woosh_02" ID="{6173704B-E024-435E-9AB4-D02E423B0300}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_jump_woosh_03" ID="{81EA1212-3B6D-4380-9D00-FD074509788D}" ShortID="1014550036">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_jump_woosh_03" ID="{67C8A150-A435-4D44-9FAE-DB4B8A385F22}">
+											<Language>SFX</Language>
+											<AudioFile>fly_jump\fly_jump_woosh\fly_jump_woosh_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1047289779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_jump_woosh_03" ID="{67C8A150-A435-4D44-9FAE-DB4B8A385F22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="fly_jump_woosh" ID="{CA854261-1ACE-4178-972D-561307740E29}"/>
+						<ItemRef Name="fly_jump_gak" ID="{9C2A6516-E62F-4A1D-9855-790B64061691}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="fly_land" ID="{CA1B1326-011D-4573-AFCC-A80E04745CA3}" ShortID="212044216">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="fly_land_fs" ID="{B6C7DFCF-CA0A-46A2-8E5B-B44FEFA52529}" ShortID="893397057">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_land_fs_01" ID="{BE2C043A-01BD-4CDE-A1A7-3F840E6AF380}" ShortID="919955730">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_land_fs_01" ID="{0558FBFF-4EB8-4FE7-AC48-25CE18CC9FCE}">
+											<Language>SFX</Language>
+											<AudioFile>fly_land\fly_land_fs\fly_land_fs_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="727737889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_land_fs_01" ID="{0558FBFF-4EB8-4FE7-AC48-25CE18CC9FCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_land_fs_02" ID="{D04A8DE5-F79E-48E6-B5C7-689844CE050C}" ShortID="82715719">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_land_fs_02" ID="{93DBC820-BC2B-46A7-BF92-731CD6F88586}">
+											<Language>SFX</Language>
+											<AudioFile>fly_land\fly_land_fs\fly_land_fs_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335272109"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_land_fs_02" ID="{93DBC820-BC2B-46A7-BF92-731CD6F88586}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_land_fs_03" ID="{CB540EDE-9656-4BF0-AB7F-A5DFAF5DFA94}" ShortID="548279586">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_land_fs_03" ID="{E069D714-E6D9-4441-959C-BF3F7D392501}">
+											<Language>SFX</Language>
+											<AudioFile>fly_land\fly_land_fs\fly_land_fs_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700131802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_land_fs_03" ID="{E069D714-E6D9-4441-959C-BF3F7D392501}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fly_land_gak" ID="{E4003388-7F7D-40E6-9087-E2C5251E3EFE}" ShortID="30712846">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.075</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_land_gak_01" ID="{EC7D046C-3BE1-4131-A265-6C97381A0812}" ShortID="893069618">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_land_gak_01" ID="{C2248D21-387C-4178-9111-75526B6B0A43}">
+											<Language>SFX</Language>
+											<AudioFile>fly_land\fly_land_gak\fly_land_gak_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="290469881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_land_gak_01" ID="{C2248D21-387C-4178-9111-75526B6B0A43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_land_gak_02" ID="{B07F5A20-0CAD-4699-B727-B5757CFD6E6C}" ShortID="775828302">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_land_gak_02" ID="{C5247EA6-2B83-49A6-B47D-A28C327BAD40}">
+											<Language>SFX</Language>
+											<AudioFile>fly_land\fly_land_gak\fly_land_gak_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="457631229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_land_gak_02" ID="{C5247EA6-2B83-49A6-B47D-A28C327BAD40}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_land_gak_03" ID="{D9633C07-3D3D-4905-BF0D-16402C3E1247}" ShortID="87349588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_land_gak_03" ID="{DE09675A-DA16-431F-9D03-9AC72DC0769C}">
+											<Language>SFX</Language>
+											<AudioFile>fly_land\fly_land_gak\fly_land_gak_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132958420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_land_gak_03" ID="{DE09675A-DA16-431F-9D03-9AC72DC0769C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<SwitchContainer Name="fly_footsteps" ID="{EF821852-8D89-47A6-83EE-33B70D90332D}" ShortID="224061628">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="concrete" ID="{DFD77BF1-F578-4013-9AF8-92465D507883}" WorkUnitID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="surfaces" ID="{CE945FD9-03A8-43AA-8D11-24F8855E627D}" WorkUnitID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="fly_fs_concrete" ID="{4F6EEF20-C453-4EF6-8F78-F6B2DED4280D}" ShortID="462702977">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2CD55BDF-D61E-4CE5-946D-5C23FB91E375}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AA90D299-210E-4874-A9CE-ACFD3CD09F77}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_fs_concrete_01" ID="{719D95CD-8007-4B0E-87DE-95C0C0DA288A}" ShortID="228268115">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_concrete_01" ID="{114715ED-8A26-489C-8EAE-8425D06E438E}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_concrete_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="17746729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_concrete_01" ID="{114715ED-8A26-489C-8EAE-8425D06E438E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_concrete_02" ID="{6FEB45DC-D4A3-46F5-A091-4B0E5936232C}" ShortID="757420210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_concrete_02" ID="{727CE1E8-5C74-4A29-8159-D47FEEEF24CC}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_concrete_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="607136432"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_concrete_02" ID="{727CE1E8-5C74-4A29-8159-D47FEEEF24CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_concrete_03" ID="{E67363E5-677C-4124-B013-58034B218994}" ShortID="145580539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_concrete_03" ID="{BFC205F1-18DF-4197-8F20-55C2FCB2E7D5}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_concrete_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="249832919"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_concrete_03" ID="{BFC205F1-18DF-4197-8F20-55C2FCB2E7D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_concrete_04" ID="{F38179DC-0C29-4957-8B53-3ACAC5F2A733}" ShortID="824273542">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_concrete_04" ID="{C5E86C4C-98A5-4A00-AAB5-6FC61885F9BB}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_concrete_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="362217232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_concrete_04" ID="{C5E86C4C-98A5-4A00-AAB5-6FC61885F9BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_concrete_05" ID="{3F740834-D40E-45BF-8E15-5E3B51AFB175}" ShortID="741561908">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_concrete_05" ID="{3790D69F-2518-49E7-952E-B90C3B72BFB1}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_concrete_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="729496618"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_concrete_05" ID="{3790D69F-2518-49E7-952E-B90C3B72BFB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fly_fs_gravel" ID="{2968BB36-EA34-445B-AC1B-C77CBCC84FEF}" ShortID="998921855">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9BD39111-299D-4888-BA8D-0481C448BF5E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_fs_gravel_01" ID="{F8C7150E-0118-402B-A1A3-315AFF2D4A5F}" ShortID="875247271">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_gravel_01" ID="{66ACC759-830B-4248-915D-527843138EA9}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_gravel_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="486647524"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_gravel_01" ID="{66ACC759-830B-4248-915D-527843138EA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_gravel_02" ID="{05051D62-EB88-41FD-92F7-2CE0C45F4178}" ShortID="161312971">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_gravel_02" ID="{84D9E6BF-CCB9-44CA-A812-DC961AEF9B20}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_gravel_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214976742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_gravel_02" ID="{84D9E6BF-CCB9-44CA-A812-DC961AEF9B20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_gravel_03" ID="{3337623C-1783-4399-8769-B8DC8A5B9CCD}" ShortID="366112658">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_gravel_03" ID="{C25A122F-C449-498B-B8AB-E645B3412971}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_gravel_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299409949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_gravel_03" ID="{C25A122F-C449-498B-B8AB-E645B3412971}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_gravel_04" ID="{62D98FAA-E2B1-40F2-9059-7C1CDE2939CC}" ShortID="237669745">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_gravel_04" ID="{6D878CDB-143E-4BD1-8FB9-392E072DAE5B}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_gravel_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335320219"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_gravel_04" ID="{6D878CDB-143E-4BD1-8FB9-392E072DAE5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_gravel_05" ID="{53F17505-B543-4828-90DF-6DBE9A7A286B}" ShortID="257353364">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_gravel_05" ID="{E737BD2E-0422-4929-9E0C-90D6D1FE9648}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_gravel_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="586892453"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_gravel_05" ID="{E737BD2E-0422-4929-9E0C-90D6D1FE9648}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fly_fs_hardmetal" ID="{0DB68143-CC90-45D9-A1BA-FE1915D154F2}" ShortID="160049256">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C0D81B3D-A755-4F33-8265-C850B897F2BB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_fs_hardmetal_01" ID="{CF4E99E3-AA7B-497F-A465-70540F009AA1}" ShortID="549555226">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardmetal_01" ID="{AC015060-6DD2-41C0-B28A-45486CB010F5}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardmetal_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="371732828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardmetal_01" ID="{AC015060-6DD2-41C0-B28A-45486CB010F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardmetal_02" ID="{DFE95F77-2324-4F4B-B423-09C08D29839A}" ShortID="782162011">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardmetal_02" ID="{D3926E6B-1B63-40BF-B43D-193C569C52E3}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardmetal_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="172635229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardmetal_02" ID="{D3926E6B-1B63-40BF-B43D-193C569C52E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardmetal_03" ID="{F9A20E71-40A9-41CF-BDDB-B54583F099FD}" ShortID="779919081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardmetal_03" ID="{548A6B91-E1FE-4364-8D3C-850E9E758992}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardmetal_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972663891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardmetal_03" ID="{548A6B91-E1FE-4364-8D3C-850E9E758992}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardmetal_04" ID="{FA698193-70DC-4EC9-B1F3-DD04E32D7763}" ShortID="253682011">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardmetal_04" ID="{C92A5208-B589-4D30-880D-2ED79C159EA4}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardmetal_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="96666136"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardmetal_04" ID="{C92A5208-B589-4D30-880D-2ED79C159EA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardmetal_05" ID="{C785A4DC-EF1B-4234-8CCD-E78CB74B6AE6}" ShortID="730039920">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardmetal_05" ID="{5374F2AA-DA7F-4539-B7CB-A8615A5D49FE}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardmetal_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640035294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardmetal_05" ID="{5374F2AA-DA7F-4539-B7CB-A8615A5D49FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fly_fs_hardwood" ID="{FCC2C5B5-16A4-4F2B-8AC0-9C6CDF74A420}" ShortID="85623158">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7D9A2602-0174-41FA-A412-61C30D39BE21}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_fs_hardwood_01" ID="{63BBBA0F-4215-4073-8693-B006385D5101}" ShortID="257127318">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardwood_01" ID="{356887DC-1501-4CBC-BEAC-1F6E1E0DC87F}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardwood_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="314580219"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardwood_01" ID="{356887DC-1501-4CBC-BEAC-1F6E1E0DC87F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardwood_02" ID="{5ED3B216-1468-4B0E-B029-31E0DA139E69}" ShortID="866524126">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardwood_02" ID="{C456FD92-A00F-469A-9FC7-040DE7ABBAED}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardwood_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784026414"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardwood_02" ID="{C456FD92-A00F-469A-9FC7-040DE7ABBAED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardwood_03" ID="{B4AC300C-2054-48B3-B780-54451957B40D}" ShortID="486691303">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardwood_03" ID="{99846B57-7C5B-4E32-A597-AF45D1338D54}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardwood_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="158867367"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardwood_03" ID="{99846B57-7C5B-4E32-A597-AF45D1338D54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardwood_04" ID="{5392C5F9-C33B-4779-A299-39D46D0045FC}" ShortID="632306073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardwood_04" ID="{1A734102-3434-4647-9780-AF073B27D724}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardwood_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214246342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardwood_04" ID="{1A734102-3434-4647-9780-AF073B27D724}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_hardwood_05" ID="{73668884-F789-4768-AE86-6754E33C160D}" ShortID="965235970">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_hardwood_05" ID="{912AED1A-2228-4796-9789-20B5415AABD7}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_hardwood_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="76626218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_hardwood_05" ID="{912AED1A-2228-4796-9789-20B5415AABD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="fly_fs_water" ID="{25560DEA-AC02-440E-9B74-D8ECBF9570CD}" ShortID="210056101">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F14AF5C1-C464-4336-B15D-EE55824D3E40}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fly_fs_water_01" ID="{68EB5BA1-80D0-4624-A877-BE1FDA011DC4}" ShortID="50521520">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_water_01" ID="{4C0AAF2E-39EF-4796-A70F-F9F806A88EE0}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_water_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033458393"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_water_01" ID="{4C0AAF2E-39EF-4796-A70F-F9F806A88EE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_water_02" ID="{880A081E-AF8B-41D2-B6C3-9B0F1C1E8367}" ShortID="788825445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_water_02" ID="{56C1A6F5-A3C6-4352-B85C-40C643E1A070}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_water_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1031385465"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_water_02" ID="{56C1A6F5-A3C6-4352-B85C-40C643E1A070}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_water_03" ID="{EBAE9218-1E67-4EFA-869E-0E2A794858A8}" ShortID="995171440">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_water_03" ID="{57185DC3-8B7E-410C-AA54-E02B680785DE}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_water_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665518645"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_water_03" ID="{57185DC3-8B7E-410C-AA54-E02B680785DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_water_04" ID="{7291BFA6-9A7A-40DE-81EE-F23B3E3F68F8}" ShortID="527686627">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_water_04" ID="{EF5E19DC-B245-4B68-A473-9CC6BA7A203A}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_water_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="69442428"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_water_04" ID="{EF5E19DC-B245-4B68-A473-9CC6BA7A203A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fly_fs_water_05" ID="{8540DE41-DDCA-4DED-8A17-D894F0A2FA4A}" ShortID="666173172">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fly_fs_water_05" ID="{A735B0BA-089B-46E0-988F-F2161EB5D579}">
+											<Language>SFX</Language>
+											<AudioFile>fly_fs_water_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="667522298"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fly_fs_water_05" ID="{A735B0BA-089B-46E0-988F-F2161EB5D579}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="fly_fs_concrete" ID="{4F6EEF20-C453-4EF6-8F78-F6B2DED4280D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="fly_fs_gravel" ID="{2968BB36-EA34-445B-AC1B-C77CBCC84FEF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="fly_fs_hardmetal" ID="{0DB68143-CC90-45D9-A1BA-FE1915D154F2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="fly_fs_hardwood" ID="{FCC2C5B5-16A4-4F2B-8AC0-9C6CDF74A420}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="fly_fs_water" ID="{25560DEA-AC02-440E-9B74-D8ECBF9570CD}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="metal" ID="{88CD8035-F63C-4C65-A425-31A139E3592D}"/>
+								<ItemList>
+									<ItemRef Name="fly_fs_hardmetal" ID="{0DB68143-CC90-45D9-A1BA-FE1915D154F2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="gravel" ID="{47D46C90-B947-4138-9D79-03739DB3DCA6}"/>
+								<ItemList>
+									<ItemRef Name="fly_fs_gravel" ID="{2968BB36-EA34-445B-AC1B-C77CBCC84FEF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="wood_hard" ID="{5C7D49D4-1DEB-4CFD-999C-54233B6B184C}"/>
+								<ItemList>
+									<ItemRef Name="fly_fs_hardwood" ID="{FCC2C5B5-16A4-4F2B-8AC0-9C6CDF74A420}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="water" ID="{DA96BBDC-01D6-49FD-BFCD-C10AB1375B55}"/>
+								<ItemList>
+									<ItemRef Name="fly_fs_water" ID="{25560DEA-AC02-440E-9B74-D8ECBF9570CD}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="concrete" ID="{DFD77BF1-F578-4013-9AF8-92465D507883}"/>
+								<ItemList>
+									<ItemRef Name="fly_fs_concrete" ID="{4F6EEF20-C453-4EF6-8F78-F6B2DED4280D}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

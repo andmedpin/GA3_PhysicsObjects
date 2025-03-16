@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CBF9850F-A008-473E-B7AE-83BC269B1E69}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{CBF9850F-A008-473E-B7AE-83BC269B1E69}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CBF9850F-A008-473E-B7AE-83BC269B1E69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_fly_jump" ID="{57FC0B43-98A1-4EC9-ADA8-2211FEC44B73}">
+					<ChildrenList>
+						<Action Name="" ID="{F6D24AD4-8DB5-4592-A4C0-4FCD337802B6}" ShortID="962716874">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fly_jump" ID="{1C76F1F8-EFE9-4168-9FD2-0C16AD4BCEAD}" WorkUnitID="{C0D55ADA-3B51-479A-8534-052FCA9C5027}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fly_footsteps" ID="{5A8491B6-76CA-464F-846F-99A2273B817A}">
+					<ChildrenList>
+						<Action Name="" ID="{72A881C5-5B77-4171-BF28-DDC667EE5A63}" ShortID="675496465">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fly_footsteps" ID="{EF821852-8D89-47A6-83EE-33B70D90332D}" WorkUnitID="{C0D55ADA-3B51-479A-8534-052FCA9C5027}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fly_land" ID="{3C89171E-8537-4118-A058-60B668CF4751}">
+					<ChildrenList>
+						<Action Name="" ID="{1EC4F477-257E-4DF2-91D5-C2FDC57D652D}" ShortID="309973187">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fly_land" ID="{CA1B1326-011D-4573-AFCC-A80E04745CA3}" WorkUnitID="{C0D55ADA-3B51-479A-8534-052FCA9C5027}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_props_impact_glasscrack" ID="{F1A04E17-AE80-4739-82CD-D0D4937ADE33}">
+					<ChildrenList>
+						<Action Name="" ID="{43B87714-1A75-482A-9F30-5EDB1D915944}" ShortID="958545953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_props_impact_glasscrack" ID="{0781A6E0-432C-4195-8930-F46567A99635}" WorkUnitID="{A12CECB9-9587-466E-BBF5-F567C2E94286}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

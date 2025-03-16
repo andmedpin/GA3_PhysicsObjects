@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="surfaces" ID="{CE945FD9-03A8-43AA-8D11-24F8855E627D}">
+					<ChildrenList>
+						<Switch Name="concrete" ID="{DFD77BF1-F578-4013-9AF8-92465D507883}"/>
+						<Switch Name="water" ID="{DA96BBDC-01D6-49FD-BFCD-C10AB1375B55}"/>
+						<Switch Name="gravel" ID="{47D46C90-B947-4138-9D79-03739DB3DCA6}"/>
+						<Switch Name="wood_hard" ID="{5C7D49D4-1DEB-4CFD-999C-54233B6B184C}"/>
+						<Switch Name="metal" ID="{88CD8035-F63C-4C65-A425-31A139E3592D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="impact_intensity" ID="{D3A9A319-DA07-494A-B2E5-71E0E5B09BBA}">
+					<ChildrenList>
+						<Switch Name="hard" ID="{AFC159BE-21B4-4F53-A3A5-EB7FBC263D6C}"/>
+						<Switch Name="medium" ID="{CBA249DA-EB75-49C3-83EE-282E4CD8B31E}"/>
+						<Switch Name="light" ID="{03703E6F-768B-4308-BF40-39CFE3A3DEBC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

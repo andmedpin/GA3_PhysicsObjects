@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1BD1D933-4C51-4A7F-AD74-A6E1FE9A2F45}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{1BD1D933-4C51-4A7F-AD74-A6E1FE9A2F45}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1BD1D933-4C51-4A7F-AD74-A6E1FE9A2F45}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="time" ID="{03703005-AE7C-46D6-9110-FB16A508735E}">
+					<ChildrenList>
+						<State Name="None" ID="{DF9677CD-8812-47C8-BFDD-DCA86C94D626}"/>
+						<State Name="day" ID="{3BAE1F91-7D30-49C9-A878-1638791CABB7}"/>
+						<State Name="night" ID="{CF18DBA0-195D-4A8A-8B17-74D3DCD1ACFB}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="music_key" ID="{76D23208-AC96-42FF-AD14-A04DDA6E5854}">
+					<ChildrenList>
+						<State Name="None" ID="{9B61DD11-342F-466F-AC2A-1714888EDE5D}"/>
+						<State Name="a" ID="{59031A9B-877D-4717-87A5-19F2E51168CB}"/>
+						<State Name="b" ID="{55B51244-6593-4D6F-A17A-1F85EA409725}"/>
+						<State Name="c" ID="{D5B867E0-C7C4-4114-8768-000344F4BA96}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

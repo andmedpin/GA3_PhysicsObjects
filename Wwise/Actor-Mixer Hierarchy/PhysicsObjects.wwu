@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A12CECB9-9587-466E-BBF5-F567C2E94286}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="PhysicsObjects" ID="{A12CECB9-9587-466E-BBF5-F567C2E94286}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="8"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchContainer Name="sfx_props_impact_glasscrack" ID="{0781A6E0-432C-4195-8930-F46567A99635}" ShortID="468001267">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="medium" ID="{CBA249DA-EB75-49C3-83EE-282E4CD8B31E}" WorkUnitID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="impact_intensity" ID="{D3A9A319-DA07-494A-B2E5-71E0E5B09BBA}" WorkUnitID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="sfx_props_impact_glasscrack_int1" ID="{DAD55408-2742-4848-B74E-B3429F08DCA7}" ShortID="173716273">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_props_impact_glasscrack_int1_hi" ID="{FA310DF4-E075-48F2-8238-7CECEF556964}" ShortID="77069202">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CEE6F621-A5D1-4C18-809D-F7A48D52DFE4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int1_hi" ID="{D215AC20-2ECF-49AD-B1C6-E8BC188D33DF}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int1_hi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214097185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int1_hi" ID="{D215AC20-2ECF-49AD-B1C6-E8BC188D33DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_props_impact_glasscrack_int1_low" ID="{7C6A154A-0D93-4E75-A615-4D4B137DC6E9}" ShortID="385167990">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{790CE392-878B-4A96-819D-BBEC32D61BBC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int1_low" ID="{9BE22D7D-95B9-435D-93C8-A77BE28D8959}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int1_low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="500889543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int1_low" ID="{9BE22D7D-95B9-435D-93C8-A77BE28D8959}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_props_impact_glasscrack_int1_mid" ID="{C5DA9A15-3CF5-4F10-8B59-B771DADE3879}" ShortID="174325138">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B16AC840-E61E-4747-938A-B3808296FFD6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int1_mid" ID="{9D952FE2-4919-4F51-B06C-304991E23213}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int1_mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="899539309"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int1_mid" ID="{9D952FE2-4919-4F51-B06C-304991E23213}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="sfx_props_impact_glasscrack_int2" ID="{6D94A18B-393F-487C-9ADC-6A3B7180BE38}" ShortID="947149547">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_props_impact_glasscrack_int2_hi" ID="{ADD5C795-FCD8-405A-9492-CFBA0AED8877}" ShortID="355486392">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B6B72887-AAF1-4C99-A753-38A248FAE15C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int2_hi" ID="{1C1AB95B-3851-4FE6-ACF7-A41CECB12126}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int2_hi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="566725644"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int2_hi" ID="{1C1AB95B-3851-4FE6-ACF7-A41CECB12126}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_props_impact_glasscrack_int2_low" ID="{1B11DF6B-773A-4544-BE21-BDDB3741F56C}" ShortID="72726608">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{71C1A87D-4002-432B-908C-06833B6A3DB5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int2_low" ID="{FAE7E028-BF32-47F4-87D1-0E79601FD8BE}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int2_low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="468341759"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int2_low" ID="{FAE7E028-BF32-47F4-87D1-0E79601FD8BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_props_impact_glasscrack_int2_mid" ID="{E3F2F724-3B02-4792-85DD-776F33B6DEFD}" ShortID="111245063">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9C960034-9E69-4968-AFFE-D9686D86C05B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int2_mid" ID="{59587B3C-8CF6-4D6F-948A-169129359E0A}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int2_mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="100975532"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int2_mid" ID="{59587B3C-8CF6-4D6F-948A-169129359E0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="sfx_props_impact_glasscrack_int3" ID="{AC815489-1417-4E32-8C2B-3F96961CDD71}" ShortID="1049279362">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_props_impact_glasscrack_int3_hi" ID="{60F23597-A63D-4FCC-81CC-CD8EB88FD8F0}" ShortID="324712004">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0E872AAD-2BF9-4404-AF69-BA7044EF6FA2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int3_hi" ID="{1B1A417E-FB27-435A-979B-F60B90B6C9FF}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int3_hi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390541708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int3_hi" ID="{1B1A417E-FB27-435A-979B-F60B90B6C9FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_props_impact_glasscrack_int3_low" ID="{1D260B4C-5BCD-4E37-ACA1-B5019829874B}" ShortID="1051109546">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D7C08264-D0E6-427D-AACC-6D1832A75671}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int3_low" ID="{B3D7B9AF-705E-44B9-8C01-D1DF77CF3A79}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int3_low.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="312073526"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int3_low" ID="{B3D7B9AF-705E-44B9-8C01-D1DF77CF3A79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_props_impact_glasscrack_int3_mid" ID="{AC15E4DC-FF10-4B61-BE96-743029BBA094}" ShortID="507792149">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A58875D4-31C4-47CF-B220-1F24364BD1FA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_props_impact_glasscrack_int3_mid" ID="{4F44D0D9-7FB7-4E4A-90FF-83AB7DC42566}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_props_impact_glasscrack_int3_mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275472835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_props_impact_glasscrack_int3_mid" ID="{4F44D0D9-7FB7-4E4A-90FF-83AB7DC42566}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_props_impact_glasscrack_int1" ID="{DAD55408-2742-4848-B74E-B3429F08DCA7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_props_impact_glasscrack_int3" ID="{AC815489-1417-4E32-8C2B-3F96961CDD71}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_props_impact_glasscrack_int2" ID="{6D94A18B-393F-487C-9ADC-6A3B7180BE38}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="light" ID="{03703E6F-768B-4308-BF40-39CFE3A3DEBC}"/>
+								<ItemList>
+									<ItemRef Name="sfx_props_impact_glasscrack_int1" ID="{DAD55408-2742-4848-B74E-B3429F08DCA7}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="hard" ID="{AFC159BE-21B4-4F53-A3A5-EB7FBC263D6C}"/>
+								<ItemList>
+									<ItemRef Name="sfx_props_impact_glasscrack_int3" ID="{AC815489-1417-4E32-8C2B-3F96961CDD71}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="medium" ID="{CBA249DA-EB75-49C3-83EE-282E4CD8B31E}"/>
+								<ItemList>
+									<ItemRef Name="sfx_props_impact_glasscrack_int2" ID="{6D94A18B-393F-487C-9ADC-6A3B7180BE38}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

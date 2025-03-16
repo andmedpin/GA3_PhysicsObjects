@@ -1,0 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2078097994	music_key			\Default Work Unit\music_key	
+	2654366170	time			\Default Work Unit\time	
+
+State	ID	Name	State Group			Notes
+	84696444	c	music_key			
+	84696445	b	music_key			
+	84696446	a	music_key			
+	748895195	None	music_key			
+	311764537	day	time			
+	748895195	None	time			
+	1011622525	night	time			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

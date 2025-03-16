@@ -1,0 +1,54 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1090832716	Play_fly_jump			\Default Work Unit\Play_fly_jump	
+	1793302909	Play_fly_footsteps			\Default Work Unit\Play_fly_footsteps	
+	4292818287	Play_fly_land			\Default Work Unit\Play_fly_land	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3714303081	surfaces			\Default Work Unit\surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	165615538	wood_hard	surfaces			
+	841620460	concrete	surfaces			
+	2185786256	gravel	surfaces			
+	2473969246	metal	surfaces			
+	2654748154	water	surfaces			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17746729	fly_fs_concrete_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_concrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_concrete\fly_fs_concrete_01		29766
+	20591005	fly_jump_woosh_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_jump\fly_jump_woosh\fly_jump_woosh_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_jump\fly_jump_woosh\fly_jump_woosh_01		51770
+	69442428	fly_fs_water_04	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_water_04_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_water\fly_fs_water_04		42030
+	70853248	fly_jump_gak_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_jump\fly_jump_gak\fly_jump_gak_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_jump\fly_jump_gak\fly_jump_gak_01		51770
+	76626218	fly_fs_hardwood_05	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardwood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardwood\fly_fs_hardwood_05		28460
+	96666136	fly_fs_hardmetal_04	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardmetal_04_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardmetal\fly_fs_hardmetal_04		29644
+	132958420	fly_land_gak_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_land\fly_land_gak\fly_land_gak_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_land\fly_land_gak\fly_land_gak_03		41564
+	158867367	fly_fs_hardwood_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardwood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardwood\fly_fs_hardwood_03		24924
+	172635229	fly_fs_hardmetal_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardmetal_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardmetal\fly_fs_hardmetal_02		24180
+	214246342	fly_fs_hardwood_04	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardwood_04_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardwood\fly_fs_hardwood_04		21798
+	214976742	fly_fs_gravel_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_gravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_gravel\fly_fs_gravel_02		55754
+	249832919	fly_fs_concrete_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_concrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_concrete\fly_fs_concrete_03		24846
+	264553083	fly_jump_woosh_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_jump\fly_jump_woosh\fly_jump_woosh_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_jump\fly_jump_woosh\fly_jump_woosh_02		46576
+	290469881	fly_land_gak_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_land\fly_land_gak\fly_land_gak_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_land\fly_land_gak\fly_land_gak_01		33248
+	299409949	fly_fs_gravel_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_gravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_gravel\fly_fs_gravel_03		46014
+	314580219	fly_fs_hardwood_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardwood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardwood\fly_fs_hardwood_01		22604
+	335272109	fly_land_fs_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_land\fly_land_fs\fly_land_fs_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_land\fly_land_fs\fly_land_fs_02		37472
+	335320219	fly_fs_gravel_04	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_gravel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_gravel\fly_fs_gravel_04		53224
+	362217232	fly_fs_concrete_04	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_concrete_04_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_concrete\fly_fs_concrete_04		27434
+	371732828	fly_fs_hardmetal_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardmetal_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardmetal\fly_fs_hardmetal_01		29912
+	457631229	fly_land_gak_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_land\fly_land_gak\fly_land_gak_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_land\fly_land_gak\fly_land_gak_02		41866
+	486647524	fly_fs_gravel_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_gravel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_gravel\fly_fs_gravel_01		47660
+	537554449	fly_jump_gak_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_jump\fly_jump_gak\fly_jump_gak_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_jump\fly_jump_gak\fly_jump_gak_02		46576
+	586892453	fly_fs_gravel_05	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_gravel_05_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_gravel\fly_fs_gravel_05		52876
+	607136432	fly_fs_concrete_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_concrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_concrete\fly_fs_concrete_02		35196
+	640035294	fly_fs_hardmetal_05	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardmetal_05_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardmetal\fly_fs_hardmetal_05		33796
+	665518645	fly_fs_water_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_water_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_water\fly_fs_water_03		39208
+	667522298	fly_fs_water_05	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_water_05_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_water\fly_fs_water_05		28632
+	700131802	fly_land_fs_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_land\fly_land_fs\fly_land_fs_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_land\fly_land_fs\fly_land_fs_03		24356
+	727737889	fly_land_fs_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_land\fly_land_fs\fly_land_fs_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_land\fly_land_fs\fly_land_fs_01		29912
+	729496618	fly_fs_concrete_05	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_concrete_05_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_concrete\fly_fs_concrete_05		38744
+	784026414	fly_fs_hardwood_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardwood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardwood\fly_fs_hardwood_02		24924
+	930816969	fly_jump_gak_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_jump\fly_jump_gak\fly_jump_gak_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_jump\fly_jump_gak\fly_jump_gak_03		48896
+	972663891	fly_fs_hardmetal_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_hardmetal_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_hardmetal\fly_fs_hardmetal_03		37640
+	1031385465	fly_fs_water_02	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_water_02_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_water\fly_fs_water_02		33794
+	1033458393	fly_fs_water_01	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_fs_water_01_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_footsteps\fly_fs_water\fly_fs_water_01		35408
+	1047289779	fly_jump_woosh_03	C:\Users\apineda\Documents\GA3_PhysObjects-main\Wwise\.cache\Windows\SFX\fly_jump\fly_jump_woosh\fly_jump_woosh_03_10C4C929.wem		\Actor-Mixer Hierarchy\Foley\fly_jump\fly_jump_woosh\fly_jump_woosh_03		48896
+
