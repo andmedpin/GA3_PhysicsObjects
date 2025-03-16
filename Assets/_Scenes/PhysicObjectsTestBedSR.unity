@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.49641275, b: 0.5748176, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -255,7 +255,7 @@ PrefabInstance:
     - target: {fileID: 114646279155566934, guid: cab1cf055cadf704e841fda44009641e,
         type: 3}
       propertyPath: sObjectName
-      value: 
+      value: Play_sfx_props_impact_glasscrack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab1cf055cadf704e841fda44009641e, type: 3}
@@ -1077,7 +1077,7 @@ PrefabInstance:
     - target: {fileID: 114646279155566934, guid: cab1cf055cadf704e841fda44009641e,
         type: 3}
       propertyPath: sObjectName
-      value: 
+      value: Play_sfx_props_impact_glasscrack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab1cf055cadf704e841fda44009641e, type: 3}
@@ -1138,7 +1138,7 @@ PrefabInstance:
     - target: {fileID: 114646279155566934, guid: cab1cf055cadf704e841fda44009641e,
         type: 3}
       propertyPath: sObjectName
-      value: 
+      value: Play_sfx_props_impact_glasscrack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab1cf055cadf704e841fda44009641e, type: 3}
@@ -1409,19 +1409,22 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: jumpEvent.WwiseObjectReference
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: f073067e33284ca45bfc908ac2b101c3,
+        type: 2}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: landEvent.WwiseObjectReference
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 87f8ff20b50e0b448862244cd370e29a,
+        type: 2}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: footstepsEvent.WwiseObjectReference
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: d2bb082dbe3cc6447a0a84388245dc0c,
+        type: 2}
     - target: {fileID: 6001336043825175798, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
       propertyPath: soundBank
-      value: 
+      value: MasterSoundbank
       objectReference: {fileID: 0}
     - target: {fileID: 6001336043825175798, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
@@ -1431,7 +1434,7 @@ PrefabInstance:
     - target: {fileID: 6001336043825175798, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
       propertyPath: wwiseSwitchGroup
-      value: 
+      value: impact_intensity
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}

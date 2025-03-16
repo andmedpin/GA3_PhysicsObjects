@@ -427,6 +427,183 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<SwitchContainer Name="new_intensity_switch" ID="{682E26C2-CBBE-4EBE-9295-B7F4303580C5}" ShortID="685826677">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="light" ID="{03703E6F-768B-4308-BF40-39CFE3A3DEBC}" WorkUnitID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="impact_intensity" ID="{D3A9A319-DA07-494A-B2E5-71E0E5B09BBA}" WorkUnitID="{1EB3A0D2-18E0-4404-A709-C4CA388FE9C0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="int1" ID="{7F589B84-0A94-47C4-9C3A-14A719D01DA6}" ShortID="983847934">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="int1_hi_freq" ID="{0B2F30C2-985A-4A9E-A9F1-9AF88409BBD0}" ShortID="179697146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="int1_mid_freq" ID="{A3AB32F9-CEE5-43D1-B092-F99ED506F12F}" ShortID="288029557">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="int1_low_freq" ID="{DC72FD3A-E5AC-463B-8F87-C9A50A3C0C60}" ShortID="866461009">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="int2" ID="{D8960294-170E-47D4-B120-522929E9BE29}" ShortID="857092742">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="int2_hi_freq" ID="{1B2DDD6C-D317-43A0-AD95-40D0E092DE03}" ShortID="307315247">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="int2_mid_freq" ID="{18409049-B5D7-4E47-A678-B609E789AF93}" ShortID="186725768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="int2_low_freq" ID="{CA3F71F2-5FC3-49B3-A9E4-B47A1275BFAD}" ShortID="306739710">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="int3" ID="{A5FE8D04-F922-4EE9-A702-D16F0BBA6F02}" ShortID="919304680">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="int3_hi_freq" ID="{8267E6CF-505E-4315-9CC1-55CC7E6B5CC1}" ShortID="321957068">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="int3_mid_freq" ID="{D07E862D-DF51-4A6B-9F4D-A7D2FDFD0DF2}" ShortID="534880995">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="int3_low_freq" ID="{0BC86FCB-9E2B-49FD-AE78-557BF3408AE9}" ShortID="914014729">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFED10EA-0BFC-4FE5-9AAE-C65AB2CCA3A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{83C45A7B-8E39-4A15-BD35-DAC7A9EC0584}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="int3" ID="{A5FE8D04-F922-4EE9-A702-D16F0BBA6F02}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="int1" ID="{7F589B84-0A94-47C4-9C3A-14A719D01DA6}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="int2" ID="{D8960294-170E-47D4-B120-522929E9BE29}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="light" ID="{03703E6F-768B-4308-BF40-39CFE3A3DEBC}"/>
+								<ItemList>
+									<ItemRef Name="int1" ID="{7F589B84-0A94-47C4-9C3A-14A719D01DA6}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="hard" ID="{AFC159BE-21B4-4F53-A3A5-EB7FBC263D6C}"/>
+								<ItemList>
+									<ItemRef Name="int3" ID="{A5FE8D04-F922-4EE9-A702-D16F0BBA6F02}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="medium" ID="{CBA249DA-EB75-49C3-83EE-282E4CD8B31E}"/>
+								<ItemList>
+									<ItemRef Name="int2" ID="{D8960294-170E-47D4-B120-522929E9BE29}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

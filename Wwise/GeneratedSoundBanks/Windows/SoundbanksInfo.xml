@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="971909502" Type="User" Language="SFX" Hash="{EF1CEFF1-B569-DABD-D3B5-01A1C54BE835}">
+		<SoundBank Id="971909502" Type="User" Language="SFX" Hash="{38FD7FD7-32E6-AC30-C314-4C0363DD943E}">
 			<ShortName>MasterSoundbank</ShortName>
 			<Path>MasterSoundbank.bnk</Path>
 			<Media>
@@ -37,6 +37,10 @@
 					<ShortName>fly_fs_hardmetal_04.wav</ShortName>
 					<CachePath>SFX/fly_fs_hardmetal_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="100975532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int2_mid.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int2_mid_10C4C929.wem</CachePath>
+				</File>
 				<File Id="132958420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_land\fly_land_gak\fly_land_gak_03.wav</ShortName>
 					<CachePath>SFX/fly_land/fly_land_gak/fly_land_gak_03_10C4C929.wem</CachePath>
@@ -48,6 +52,10 @@
 				<File Id="172635229" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_hardmetal_02.wav</ShortName>
 					<CachePath>SFX/fly_fs_hardmetal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="214097185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int1_hi.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int1_hi_10C4C929.wem</CachePath>
 				</File>
 				<File Id="214246342" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_hardwood_04.wav</ShortName>
@@ -65,6 +73,10 @@
 					<ShortName>fly_jump\fly_jump_woosh\fly_jump_woosh_02.wav</ShortName>
 					<CachePath>SFX/fly_jump/fly_jump_woosh/fly_jump_woosh_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="275472835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int3_mid.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int3_mid_10C4C929.wem</CachePath>
+				</File>
 				<File Id="290469881" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_land\fly_land_gak\fly_land_gak_01.wav</ShortName>
 					<CachePath>SFX/fly_land/fly_land_gak/fly_land_gak_01_10C4C929.wem</CachePath>
@@ -72,6 +84,10 @@
 				<File Id="299409949" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_gravel_03.wav</ShortName>
 					<CachePath>SFX/fly_fs_gravel_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="312073526" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int3_low.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int3_low_10C4C929.wem</CachePath>
 				</File>
 				<File Id="314580219" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_hardwood_01.wav</ShortName>
@@ -93,17 +109,33 @@
 					<ShortName>fly_fs_hardmetal_01.wav</ShortName>
 					<CachePath>SFX/fly_fs_hardmetal_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="390541708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int3_hi.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int3_hi_10C4C929.wem</CachePath>
+				</File>
 				<File Id="457631229" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_land\fly_land_gak\fly_land_gak_02.wav</ShortName>
 					<CachePath>SFX/fly_land/fly_land_gak/fly_land_gak_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="468341759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int2_low.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int2_low_10C4C929.wem</CachePath>
 				</File>
 				<File Id="486647524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_gravel_01.wav</ShortName>
 					<CachePath>SFX/fly_fs_gravel_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="500889543" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int1_low.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int1_low_10C4C929.wem</CachePath>
+				</File>
 				<File Id="537554449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_jump\fly_jump_gak\fly_jump_gak_02.wav</ShortName>
 					<CachePath>SFX/fly_jump/fly_jump_gak/fly_jump_gak_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="566725644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int2_hi.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int2_hi_10C4C929.wem</CachePath>
 				</File>
 				<File Id="586892453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_gravel_05.wav</ShortName>
@@ -140,6 +172,10 @@
 				<File Id="784026414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_fs_hardwood_02.wav</ShortName>
 					<CachePath>SFX/fly_fs_hardwood_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="899539309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_props_impact_glasscrack_int1_mid.wav</ShortName>
+					<CachePath>SFX/sfx_props_impact_glasscrack_int1_mid_10C4C929.wem</CachePath>
 				</File>
 				<File Id="930816969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fly_jump\fly_jump_gak\fly_jump_gak_03.wav</ShortName>
@@ -237,8 +273,43 @@
 						<MediaRef Id="727737889"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2102035622" Name="Play_sfx_props_impact_glasscrack" DurationType="OneShot" DurationMin="2.2955022" DurationMax="3.8799968">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2884194949" Id="1935470627"/>
+							<MediaRefs>
+								<MediaRef Id="214097185"/>
+								<MediaRef Id="500889543"/>
+								<MediaRef Id="899539309"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2884194949" Id="3599861390"/>
+							<MediaRefs>
+								<MediaRef Id="275472835"/>
+								<MediaRef Id="312073526"/>
+								<MediaRef Id="390541708"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2884194949" Id="2849147824" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="100975532"/>
+								<MediaRef Id="468341759"/>
+								<MediaRef Id="566725644"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
 			<SwitchGroups>
+				<SwitchGroup Id="2884194949" Name="impact_intensity">
+					<Switches>
+						<Switch Id="1935470627" Name="light"/>
+						<Switch Id="2849147824" Name="medium"/>
+						<Switch Id="3599861390" Name="hard"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3714303081" Name="surfaces">
 					<Switches>
 						<Switch Id="165615538" Name="wood_hard"/>
@@ -283,6 +354,13 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="2884194949" Name="impact_intensity">
+					<Switches>
+						<Switch Id="1935470627" Name="light"/>
+						<Switch Id="2849147824" Name="medium"/>
+						<Switch Id="3599861390" Name="hard"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3714303081" Name="surfaces">
 					<Switches>
 						<Switch Id="165615538" Name="wood_hard"/>
@@ -295,5 +373,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F5AA5446-A625-3BE3-AE07-86C39943770E}</FileHash>
+	<FileHash>{32D943AD-A728-2534-3101-D48E3C2293F6}</FileHash>
 </SoundBanksInfo>
