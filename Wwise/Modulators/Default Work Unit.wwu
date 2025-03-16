@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D3992CBD-AFB4-4566-ADAE-D895ACA553A8}" SchemaVersion="110">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{D3992CBD-AFB4-4566-ADAE-D895ACA553A8}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="New Modulator LFO" ID="{75DCD860-21FB-4EF7-B16C-11EA1A02DEBE}" ShortID="686822217"/>
+				<ModulatorEnvelope Name="New Modulator Envelope" ID="{523E3EF7-338F-4C28-AD30-6E4460FE814F}" ShortID="170904261"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

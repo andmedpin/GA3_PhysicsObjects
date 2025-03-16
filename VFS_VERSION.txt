@@ -1,0 +1,2 @@
+This project was last updated by Matheus Vilano on March 2nd, 2020 | Contact Info: msouza@vfs.com
+Further updated to 2019.3.2 for Unity on March 3rd, 2020 | asiu@vfs.com
